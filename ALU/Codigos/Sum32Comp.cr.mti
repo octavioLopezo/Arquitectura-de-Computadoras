@@ -1,0 +1,43 @@
+C:/Users/usuario/Desktop/SLNA_AC/FA/MUX5a1.v {1 {vlog -work work -stats=none {C:\Users\usuario\Desktop\SLNA_AC\FA\MUX5a1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux5a1
+
+Top level modules:
+	mux5a1
+
+} {} {}} C:/Users/usuario/Desktop/SLNA_AC/FA/OR32Comp.v {1 {vlog -work work -stats=none {C:\Users\usuario\Desktop\SLNA_AC\FA\OR32Comp.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OR32Comp
+
+Top level modules:
+	OR32Comp
+
+} {} {}} C:/Users/usuario/Desktop/SLNA_AC/FA/R32Comp.v {1 {vlog -work work -stats=none {C:\Users\usuario\Desktop\SLNA_AC\FA\R32Comp.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module R32Comp
+
+Top level modules:
+	R32Comp
+
+} {} {}} C:/Users/usuario/Desktop/SLNA_AC/FA/And32Comp.v {1 {vlog -work work -stats=none {C:\Users\usuario\Desktop\SLNA_AC\FA\And32Comp.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module And32Comp
+
+Top level modules:
+	And32Comp
+
+} {} {}} C:/Users/usuario/Desktop/SLNA_AC/FA/S32Comp.v {1 {vlog -work work -stats=none {C:\Users\usuario\Desktop\SLNA_AC\FA\S32Comp.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module S32Comp
+
+Top level modules:
+	S32Comp
+
+} {} {}} C:/Users/usuario/Desktop/SLNA_AC/FA/SLT32.v {1 {vlog -work work -stats=none {C:\Users\usuario\Desktop\SLNA_AC\FA\SLT32.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SLT32
+
+Top level modules:
+	SLT32
+
+} {} {}}

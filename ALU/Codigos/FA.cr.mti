@@ -1,0 +1,58 @@
+C:/Users/usuario/Desktop/SLNA_AC/FA/HA.v {1 {vlog -work work -stats=none C:/Users/usuario/Desktop/SLNA_AC/FA/HA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HA
+
+Top level modules:
+	HA
+
+} {} {}} C:/Users/usuario/Desktop/SLNA_AC/FA/M_XOR.v {1 {vlog -work work -stats=none C:/Users/usuario/Desktop/SLNA_AC/FA/M_XOR.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module M_XOR
+
+Top level modules:
+	M_XOR
+
+} {} {}} C:/Users/usuario/Desktop/SLNA_AC/FA/Sum_com4b.v {1 {vlog -work work -stats=none {C:\Users\usuario\Desktop\SLNA_AC\FA\Sum_com4b.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sum_com4b
+
+Top level modules:
+	Sum_com4b
+
+} {} {}} C:/Users/usuario/Desktop/SLNA_AC/FA/Sum_com8b.v {2 {vlog -work work -stats=none {C:\Users\usuario\Desktop\SLNA_AC\FA\Sum_com8b.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module S8b_Com
+** Warning: C:\Users\usuario\Desktop\SLNA_AC\FA\Sum_com8b.v(13): (vlog-2697) MSB 9 of part-select into 'c' is out of bounds.
+
+Top level modules:
+	S8b_Com
+
+} {} {}} C:/Users/usuario/Desktop/SLNA_AC/FA/FA.v {1 {vlog -work work -stats=none C:/Users/usuario/Desktop/SLNA_AC/FA/FA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} C:/Users/usuario/Desktop/SLNA_AC/FA/M_AND.v {1 {vlog -work work -stats=none C:/Users/usuario/Desktop/SLNA_AC/FA/M_AND.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module M_AND
+
+Top level modules:
+	M_AND
+
+} {} {}} C:/Users/usuario/Desktop/SLNA_AC/FA/Tb_Sum8b.v {1 {vlog -work work -stats=none {C:\Users\usuario\Desktop\SLNA_AC\FA\Tb_Sum8b.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Tb_Sum4b
+
+Top level modules:
+	Tb_Sum4b
+
+} {} {}} C:/Users/usuario/Desktop/SLNA_AC/FA/Tb_Sum4b.v {1 {vlog -work work -stats=none {C:\Users\usuario\Desktop\SLNA_AC\FA\Tb_Sum4b.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Tb_Sum4b
+
+Top level modules:
+	Tb_Sum4b
+
+} {} {}}

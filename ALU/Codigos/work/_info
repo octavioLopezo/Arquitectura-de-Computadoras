@@ -1,0 +1,370 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/usuario/Desktop/SLNA_AC/CA
+vALUMIPS
+Z0 !s110 1771433313
+!i10b 1
+!s100 G2k>zUBJm1_;l@zk76hC50
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7TD2]W;e2LLf?RBPnX9K[2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/usuario/Desktop/SLNA_AC/FA
+w1771433301
+8C:\Users\usuario\Desktop\SLNA_AC\FA\ALUMIPS.v
+FC:\Users\usuario\Desktop\SLNA_AC\FA\ALUMIPS.v
+!i122 181
+L0 1 26
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1771433312.000000
+!s107 C:\Users\usuario\Desktop\SLNA_AC\FA\ALUMIPS.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\usuario\Desktop\SLNA_AC\FA\ALUMIPS.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@a@l@u@m@i@p@s
+vAnd32Comp
+Z8 !s110 1771433312
+!i10b 1
+!s100 ]60Cni`fPIGDUiK`lSN[K1
+R1
+IY@EIfe]8c;KJaG9cWI`j;2
+R2
+R3
+w1771429117
+8C:\Users\usuario\Desktop\SLNA_AC\FA\And32Comp.v
+FC:\Users\usuario\Desktop\SLNA_AC\FA\And32Comp.v
+!i122 178
+Z9 L0 1 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\usuario\Desktop\SLNA_AC\FA\And32Comp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\usuario\Desktop\SLNA_AC\FA\And32Comp.v|
+!i113 1
+R6
+R7
+n@and32@comp
+vFA
+Z10 !s110 1770828695
+!i10b 1
+!s100 UVT:VSdVT4zf;oZO@V`=01
+R1
+IJk9Rlg0G4VgkFgC@N@Ghl1
+R2
+R3
+w1770222538
+8C:/Users/usuario/Desktop/SLNA_AC/FA/FA.v
+FC:/Users/usuario/Desktop/SLNA_AC/FA/FA.v
+!i122 62
+L0 1 18
+R4
+r1
+!s85 0
+31
+Z11 !s108 1770828695.000000
+!s107 C:/Users/usuario/Desktop/SLNA_AC/FA/FA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/usuario/Desktop/SLNA_AC/FA/FA.v|
+!i113 1
+R6
+R7
+n@f@a
+vHA
+R10
+!i10b 1
+!s100 PKP>]mP1czU><110``A@O3
+R1
+IHn6k=aB2M7SX@Qc>1:F>b1
+R2
+R3
+w1770222441
+8C:/Users/usuario/Desktop/SLNA_AC/FA/HA.v
+FC:/Users/usuario/Desktop/SLNA_AC/FA/HA.v
+!i122 65
+L0 2 16
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/usuario/Desktop/SLNA_AC/FA/HA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/usuario/Desktop/SLNA_AC/FA/HA.v|
+!i113 1
+R6
+R7
+n@h@a
+vM_AND
+R10
+!i10b 1
+!s100 ]@CRI]@=22ZzR6`iJQ_9A1
+R1
+IG>fcAd4U@SO5KHC^NiReh3
+R2
+R3
+w1770824861
+8C:/Users/usuario/Desktop/SLNA_AC/FA/M_AND.v
+FC:/Users/usuario/Desktop/SLNA_AC/FA/M_AND.v
+!i122 64
+Z12 L0 1 8
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/usuario/Desktop/SLNA_AC/FA/M_AND.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/usuario/Desktop/SLNA_AC/FA/M_AND.v|
+!i113 1
+R6
+R7
+n@m_@a@n@d
+vM_XOR
+R10
+!i10b 1
+!s100 gYSCb6XLZ5zD5l@NjLM]91
+R1
+IbLmUC77[nh<72i1?LZ2^41
+R2
+R3
+w1770824863
+8C:/Users/usuario/Desktop/SLNA_AC/FA/M_XOR.v
+FC:/Users/usuario/Desktop/SLNA_AC/FA/M_XOR.v
+!i122 63
+R12
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/usuario/Desktop/SLNA_AC/FA/M_XOR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/usuario/Desktop/SLNA_AC/FA/M_XOR.v|
+!i113 1
+R6
+R7
+n@m_@x@o@r
+vmux5a1
+R0
+!i10b 1
+!s100 Cam5LU[;31H@8Ha;:5Nbm2
+R1
+I^83EXGP2lk0PRVUB;Ql1J3
+R2
+R3
+w1771432198
+8C:\Users\usuario\Desktop\SLNA_AC\FA\MUX5a1.v
+FC:\Users\usuario\Desktop\SLNA_AC\FA\MUX5a1.v
+!i122 182
+L0 2 28
+R4
+r1
+!s85 0
+31
+!s108 1771433313.000000
+!s107 C:\Users\usuario\Desktop\SLNA_AC\FA\MUX5a1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\usuario\Desktop\SLNA_AC\FA\MUX5a1.v|
+!i113 1
+R6
+R7
+vOR32Comp
+R8
+!i10b 1
+!s100 Abz?TC?@DUOn?H37C?K9<2
+R1
+Inck`SCgYc80^=ZE2AZ>^U0
+R2
+R3
+w1771428957
+8C:\Users\usuario\Desktop\SLNA_AC\FA\OR32Comp.v
+FC:\Users\usuario\Desktop\SLNA_AC\FA\OR32Comp.v
+!i122 177
+R9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\usuario\Desktop\SLNA_AC\FA\OR32Comp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\usuario\Desktop\SLNA_AC\FA\OR32Comp.v|
+!i113 1
+R6
+R7
+n@o@r32@comp
+vR32Comp
+R8
+!i10b 1
+!s100 nae`BgUV@JcmT?Go6_O`_0
+R1
+IlW6jKS2kkN4:^V2iQH18T3
+R2
+R3
+w1771429119
+8C:\Users\usuario\Desktop\SLNA_AC\FA\R32Comp.v
+FC:\Users\usuario\Desktop\SLNA_AC\FA\R32Comp.v
+!i122 179
+R9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\usuario\Desktop\SLNA_AC\FA\R32Comp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\usuario\Desktop\SLNA_AC\FA\R32Comp.v|
+!i113 1
+R6
+R7
+n@r32@comp
+vS32Comp
+R8
+!i10b 1
+!s100 P1zNYj0iLW7mUY4YY]JDX2
+R1
+IKTV`daNN;=@H<cW4E=GT83
+R2
+R3
+w1771428843
+8C:\Users\usuario\Desktop\SLNA_AC\FA\S32Comp.v
+FC:\Users\usuario\Desktop\SLNA_AC\FA\S32Comp.v
+!i122 176
+R9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\usuario\Desktop\SLNA_AC\FA\S32Comp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\usuario\Desktop\SLNA_AC\FA\S32Comp.v|
+!i113 1
+R6
+R7
+n@s32@comp
+vS8b_Com
+R10
+!i10b 1
+!s100 ;AEg_I3KfVIT`M?PWFzBL2
+R1
+ImBA5fB=H2LI@LGW4QY>ka1
+R2
+R3
+w1770828501
+8C:\Users\usuario\Desktop\SLNA_AC\FA\Sum_com8b.v
+FC:\Users\usuario\Desktop\SLNA_AC\FA\Sum_com8b.v
+!i122 67
+Z13 L0 1 16
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:\Users\usuario\Desktop\SLNA_AC\FA\Sum_com8b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\usuario\Desktop\SLNA_AC\FA\Sum_com8b.v|
+!i113 1
+R6
+R7
+n@s8b_@com
+vSLT32
+R8
+!i10b 1
+!s100 V3z:@>?ei2bRd7W:CXJgl2
+R1
+I2djTfUdf7_GU`UQ^GF;XY0
+R2
+R3
+w1771429593
+8C:\Users\usuario\Desktop\SLNA_AC\FA\SLT32.v
+FC:\Users\usuario\Desktop\SLNA_AC\FA\SLT32.v
+!i122 180
+R9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\usuario\Desktop\SLNA_AC\FA\SLT32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\usuario\Desktop\SLNA_AC\FA\SLT32.v|
+!i113 1
+R6
+R7
+n@s@l@t32
+vSum_com4b
+R10
+!i10b 1
+!s100 ^7YTbhm91AM`GfRLX3K7d1
+R1
+IWIXLl9N_CF3X1oJUSm[HE1
+R2
+R3
+w1770827867
+8C:\Users\usuario\Desktop\SLNA_AC\FA\Sum_com4b.v
+FC:\Users\usuario\Desktop\SLNA_AC\FA\Sum_com4b.v
+!i122 66
+R9
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:\Users\usuario\Desktop\SLNA_AC\FA\Sum_com4b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\usuario\Desktop\SLNA_AC\FA\Sum_com4b.v|
+!i113 1
+R6
+R7
+n@sum_com4b
+vTb_Sum4b
+!s110 1770828854
+!i10b 1
+!s100 7X7UEOfXZbaTKnKJEib:91
+R1
+I^0GQn?o[JfQ;NIk5aO=[[2
+R2
+R3
+w1770828653
+Z14 8C:\Users\usuario\Desktop\SLNA_AC\FA\Tb_Sum8b.v
+Z15 FC:\Users\usuario\Desktop\SLNA_AC\FA\Tb_Sum8b.v
+!i122 70
+L0 3 29
+R4
+r1
+!s85 0
+31
+!s108 1770828854.000000
+Z16 !s107 C:\Users\usuario\Desktop\SLNA_AC\FA\Tb_Sum8b.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\usuario\Desktop\SLNA_AC\FA\Tb_Sum8b.v|
+!i113 1
+R6
+R7
+n@tb_@sum4b
+vTb_Sum8b
+!s110 1770828543
+R2
+r1
+!s85 0
+!i10b 1
+!s100 0Plkl=e@7zKzlRj=BmKWD1
+IGSf:2TTD>Zi;8FBi<hhYn0
+R3
+w1770828466
+R14
+R15
+!i122 53
+R13
+R4
+31
+!s108 1770828543.000000
+R16
+R17
+!i113 1
+R6
+R7
+n@tb_@sum8b

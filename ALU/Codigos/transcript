@@ -1,0 +1,448 @@
+# Compile of S32Comp.v failed with 2 errors.
+# Compile of S32Comp.v was successful.
+dataset reload -f
+# Dataset not found: 
+dataset reload -f
+# Dataset not found: 
+vsim work.S32Comp
+# vsim work.S32Comp 
+# Start time: 09:25:55 on Feb 18,2026
+# Loading work.S32Comp
+add wave -position end  sim:/S32Comp/So1
+add wave -position end  sim:/S32Comp/So2
+add wave -position end  sim:/S32Comp/Ci
+add wave -position end  sim:/S32Comp/Rs
+force -freeze sim:/S32Comp/So1 1111 0
+force -freeze sim:/S32Comp/So2 1111 0
+force -freeze sim:/S32Comp/Ci 0 0
+run
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of SLT32.v was successful.
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v failed with 1 errors.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v failed with 1 errors.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v was successful.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v failed with 2 errors.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v was successful.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v was successful.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v failed with 5 errors.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 1 failed with 5 errors.
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v failed with 4 errors.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 1 failed with 4 errors.
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v failed with 1 errors.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v was successful.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.ALUMIPS
+# End time: 10:36:29 on Feb 18,2026, Elapsed time: 1:10:34
+# Errors: 0, Warnings: 26
+# vsim work.ALUMIPS 
+# Start time: 10:36:29 on Feb 18,2026
+# Loading work.ALUMIPS
+# Loading work.S32Comp
+# Loading work.OR32Comp
+# Loading work.And32Comp
+# Loading work.R32Comp
+# Loading work.SLT32
+# Loading work.mux5a1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'Rs'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/S32Comp.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/S32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'RO'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/OR32Comp.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/OR32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'AR'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/And32Comp.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/And32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'RR'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/R32Comp.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/R32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'RSLT'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/SLT32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/SLT32 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'suma'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/MUX5a1.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port '_or'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/MUX5a1.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port '_and'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/MUX5a1.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'resta'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/MUX5a1.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'slt'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/MUX5a1.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+add wave -position end  sim:/ALUMIPS/A
+add wave -position end  sim:/ALUMIPS/B
+add wave -position end  sim:/ALUMIPS/Sel
+add wave -position end  sim:/ALUMIPS/Resultado
+add wave -position end  sim:/ALUMIPS/c1
+add wave -position end  sim:/ALUMIPS/c2
+add wave -position end  sim:/ALUMIPS/c3
+add wave -position end  sim:/ALUMIPS/c4
+add wave -position end  sim:/ALUMIPS/c5
+force -freeze sim:/ALUMIPS/A 10100 0
+force -freeze sim:/ALUMIPS/B 00101 0
+force -freeze sim:/ALUMIPS/Sel 0 0
+run
+force -freeze sim:/ALUMIPS/Sel 0001 0
+run
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v was successful.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.ALUMIPS
+# End time: 10:43:14 on Feb 18,2026, Elapsed time: 0:06:45
+# Errors: 0, Warnings: 12
+# vsim work.ALUMIPS 
+# Start time: 10:43:14 on Feb 18,2026
+# Loading work.ALUMIPS
+# Loading work.S32Comp
+# Loading work.OR32Comp
+# Loading work.And32Comp
+# Loading work.R32Comp
+# Loading work.SLT32
+# Loading work.mux5a1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'Rs'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/S32Comp.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/S32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'RO'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/OR32Comp.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/OR32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'AR'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/And32Comp.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/And32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'RR'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/R32Comp.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/R32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'RSLT'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/SLT32.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/SLT32 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'suma'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/MUX5a1.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port '_or'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/MUX5a1.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port '_and'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/MUX5a1.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'resta'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/MUX5a1.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'slt'. The port definition is at: C:/Users/usuario/Desktop/SLNA_AC/FA/MUX5a1.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+add wave -position end  sim:/ALUMIPS/A
+add wave -position end  sim:/ALUMIPS/B
+add wave -position end  sim:/ALUMIPS/Sel
+add wave -position end  sim:/ALUMIPS/Resultado
+add wave -position end  sim:/ALUMIPS/c1
+add wave -position end  sim:/ALUMIPS/c2
+add wave -position end  sim:/ALUMIPS/c3
+add wave -position end  sim:/ALUMIPS/c4
+add wave -position end  sim:/ALUMIPS/c5
+force -freeze sim:/ALUMIPS/A 10100 0
+force -freeze sim:/ALUMIPS/B 00101 0
+force -freeze sim:/ALUMIPS/Sel 0000 0
+run
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v failed with 1 errors.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v was successful.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.ALUMIPS
+# End time: 10:46:25 on Feb 18,2026, Elapsed time: 0:03:11
+# Errors: 0, Warnings: 13
+# vsim work.ALUMIPS 
+# Start time: 10:46:25 on Feb 18,2026
+# Loading work.ALUMIPS
+# Loading work.S32Comp
+# Loading work.OR32Comp
+# Loading work.And32Comp
+# Loading work.R32Comp
+# Loading work.SLT32
+# Loading work.mux5a1
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (Rs):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/S32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 14
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RO):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/OR32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 16
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (AR):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/And32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 18
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RR):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/R32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 20
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RSLT):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/SLT32 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 22
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (suma):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (_or):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (_and):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (resta):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (slt):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# Error loading design
+# End time: 10:46:25 on Feb 18,2026, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 1
+vsim work.ALUMIPS
+# vsim work.ALUMIPS 
+# Start time: 10:46:38 on Feb 18,2026
+# Loading work.ALUMIPS
+# Loading work.S32Comp
+# Loading work.OR32Comp
+# Loading work.And32Comp
+# Loading work.R32Comp
+# Loading work.SLT32
+# Loading work.mux5a1
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (Rs):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/S32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 14
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RO):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/OR32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 16
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (AR):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/And32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 18
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RR):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/R32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 20
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RSLT):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/SLT32 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 22
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (suma):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (_or):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (_and):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (resta):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (slt):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# Error loading design
+# End time: 10:46:38 on Feb 18,2026, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 1
+vsim work.ALUMIPS
+# vsim work.ALUMIPS 
+# Start time: 10:46:41 on Feb 18,2026
+# Loading work.ALUMIPS
+# Loading work.S32Comp
+# Loading work.OR32Comp
+# Loading work.And32Comp
+# Loading work.R32Comp
+# Loading work.SLT32
+# Loading work.mux5a1
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (Rs):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/S32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 14
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RO):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/OR32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 16
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (AR):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/And32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 18
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RR):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/R32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 20
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RSLT):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/SLT32 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 22
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (suma):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (_or):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (_and):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (resta):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (slt):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# Error loading design
+# End time: 10:46:42 on Feb 18,2026, Elapsed time: 0:00:01
+# Errors: 10, Warnings: 1
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+vsim work.ALUMIPS
+# vsim work.ALUMIPS 
+# Start time: 10:46:51 on Feb 18,2026
+# Loading work.ALUMIPS
+# Loading work.S32Comp
+# Loading work.OR32Comp
+# Loading work.And32Comp
+# Loading work.R32Comp
+# Loading work.SLT32
+# Loading work.mux5a1
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (Rs):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/S32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 14
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RO):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/OR32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 16
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (AR):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/And32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 18
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RR):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/R32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 20
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RSLT):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/SLT32 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 22
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (suma):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (_or):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (_and):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (resta):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (slt):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# Error loading design
+# End time: 10:46:52 on Feb 18,2026, Elapsed time: 0:00:01
+# Errors: 10, Warnings: 1
+# Compile of ALUMIPS.v was successful.
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v was successful.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.ALUMIPS
+# vsim work.ALUMIPS 
+# Start time: 10:47:42 on Feb 18,2026
+# Loading work.ALUMIPS
+# Loading work.S32Comp
+# Loading work.OR32Comp
+# Loading work.And32Comp
+# Loading work.R32Comp
+# Loading work.SLT32
+# Loading work.mux5a1
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (Rs):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/S32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 14
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RO):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/OR32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 16
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (AR):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/And32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 18
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RR):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/R32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 20
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RSLT):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/SLT32 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 22
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (suma):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (_or):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (_and):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (resta):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (slt):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# Error loading design
+# End time: 10:47:42 on Feb 18,2026, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 3
+# Compile of S32Comp.v was successful.
+# Compile of OR32Comp.v was successful.
+# Compile of And32Comp.v was successful.
+# Compile of R32Comp.v was successful.
+# Compile of SLT32.v was successful.
+# Compile of ALUMIPS.v was successful.
+# Compile of MUX5a1.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.ALUMIPS
+# vsim work.ALUMIPS 
+# Start time: 10:48:35 on Feb 18,2026
+# Loading work.ALUMIPS
+# Loading work.S32Comp
+# Loading work.OR32Comp
+# Loading work.And32Comp
+# Loading work.R32Comp
+# Loading work.SLT32
+# Loading work.mux5a1
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (Rs):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/S32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 14
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RO):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/OR32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 16
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (AR):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/And32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 18
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RR):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/R32Comp File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 20
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (RSLT):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/SLT32 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 22
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (suma):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (_or):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (_and):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (resta):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# ** Error (suppressible): (vsim-12027) Array connection type 'wire$[31:0]' is incompatible with 'wire[31:0]' for  port (slt):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUMIPS/mux5a1 File: C:/Users/usuario/Desktop/SLNA_AC/FA/ALUMIPS.v Line: 24
+# Error loading design
+# End time: 10:48:35 on Feb 18,2026, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 2
